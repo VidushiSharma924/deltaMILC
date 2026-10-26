@@ -1,0 +1,21 @@
+----------------
+### Disclaimer
+----------------
+The CAMELS-IND dataset is openly accessible for academic and research purposes.
+While efforts have been made to ensure data accuracy, the authors do not take any responsibility for errors, omissions, or misuse of the data.
+Users must cite the CAMELS-IND data description article when utilizing the dataset and acknowledge that all interpretations and conclusions drawn from the data are their own.
+We encourage users to cite the original data sources wherever required based on the source data usage policies.
+The dataset is provided "as is" without any warranties, and users are advised to check for updates.
+It is strongly recommended that users exercise caution and verify the data before using it for any purpose.
+The authors assume no responsibility for any consequences arising from the use or misuse of this dataset.
+
+
+
+-----------------
+### Note
+-----------------
+We are committed to identifying and correcting errors. If you encounter any unrealistic or suspicious values, please notify us as soon as possible. Thank you for your assistance.
+
+Contacts:
+- Nikunj K. Mangukiya (nikk.mangukiya@gmail.com)
+- Ashutosh Sharma (ashutosh.sharma@hy.iitr.ac.in)

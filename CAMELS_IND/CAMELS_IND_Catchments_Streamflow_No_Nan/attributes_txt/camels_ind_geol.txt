@@ -1,0 +1,243 @@
+gauge_id;geol_porosity;geol_permeability;geol_class_1st;geol_class_1st_frac;geol_class_2nd;geol_class_2nd_frac;carb_rocks_frac
+3002;0.040716875;0.725922514;Acid Plutonic Rocks;1.0;;0.0;0.0
+3005;0.045582805;0.729256467;Metamorphic Rocks;0.5;Basic Volcanic Rocks;0.166666667;0.0
+3008;0.098231527;0.744677505;Basic Volcanic Rocks;0.8125;Mixed Sedimentary Rocks;0.1875;0.0
+3009;0.090000004;0.749894209;Basic Volcanic Rocks;1.0;;0.0;0.0
+3013;0.128084289;0.724564658;Mixed Sedimentary Rocks;1.0;;0.0;0.0
+3014;0.090410983;0.749866916;Basic Volcanic Rocks;1.0;;0.0;0.0
+3017;0.015526509;0.723336015;Metamorphic Rocks;0.5;Metamorphic Rocks;0.5;0.0
+3018;0.089134996;0.730889696;Siliciclastic Sedimentary Rocks;0.6;Metamorphic Rocks;0.2;0.0
+3019;0.089812772;0.749829554;Basic Volcanic Rocks;0.666666667;Metamorphic Rocks;0.333333333;0.0
+3020;0.090000004;0.749894209;Basic Volcanic Rocks;1.0;;0.0;0.0
+3024;0.017277827;0.72519627;Metamorphic Rocks;1.0;;0.0;0.0
+3028;0.099191336;0.748053651;Basic Volcanic Rocks;1.0;;0.0;0.0
+3029;0.090000004;0.749894209;Basic Volcanic Rocks;1.0;;0.0;0.0
+3030;0.090199027;0.749880992;Basic Volcanic Rocks;1.0;;0.0;0.0
+3031;0.085478616;0.730483488;Siliciclastic Sedimentary Rocks;0.5;Siliciclastic Sedimentary Rocks;0.5;0.0
+3038;0.090000004;0.749894209;Basic Volcanic Rocks;1.0;;0.0;0.0
+3040;0.100046621;0.749108874;Basic Volcanic Rocks;0.5;Basic Volcanic Rocks;0.5;0.0
+3043;0.077398655;0.735270684;Basic Volcanic Rocks;0.423076923;Metamorphic Rocks;0.355769231;0.0
+3045;0.055111263;0.727287884;Metamorphic Rocks;0.857142857;Unconsolidated Sediments;0.142857143;0.0
+3047;0.059087925;0.727720766;Metamorphic Rocks;0.5;Siliciclastic Sedimentary Rocks;0.25;0.0
+3048;0.059129598;0.737313059;Metamorphic Rocks;1.0;;0.0;0.0
+3055;0.079210438;0.744291113;Basic Volcanic Rocks;0.736842105;Metamorphic Rocks;0.236842105;0.0
+3056;0.090000004;0.749894209;Basic Volcanic Rocks;1.0;;0.0;0.0
+3057;0.079467795;0.729883567;Metamorphic Rocks;0.5;Siliciclastic Sedimentary Rocks;0.375;0.0
+3064;0.095626332;0.748234271;Basic Volcanic Rocks;1.0;;0.0;0.0
+3068;0.03262638;0.72501839;Metamorphic Rocks;1.0;;0.0;0.0
+3069;0.090000004;0.749894209;Basic Volcanic Rocks;1.0;;0.0;0.0
+3071;0.073337589;0.729409181;Metamorphic Rocks;0.615384615;Siliciclastic Sedimentary Rocks;0.230769231;0.0
+3072;0.045683363;0.732446331;Metamorphic Rocks;0.583333333;Basic Volcanic Rocks;0.25;0.0
+3073;0.076415275;0.736692162;Basic Volcanic Rocks;0.468085106;Metamorphic Rocks;0.329787234;0.0
+3074;0.089756101;0.748835025;Basic Volcanic Rocks;1.0;;0.0;0.0
+3075;0.076947909;0.735186367;Basic Volcanic Rocks;0.419047619;Metamorphic Rocks;0.361904762;0.0
+3076;0.041774809;0.725752581;Metamorphic Rocks;1.0;;0.0;0.0
+3079;0.090000004;0.749894209;Basic Volcanic Rocks;1.0;;0.0;0.0
+3081;0.046324653;0.73407195;Intermediate Volcanic Rocks;1.0;;0.0;0.0
+3082;0.079402944;0.707798736;Unconsolidated Sediments;0.25;Unconsolidated Sediments;0.25;0.0
+3083;0.049783258;0.731165359;Basic Volcanic Rocks;1.0;;0.0;0.0
+3085;0.090877931;0.749835907;Basic Volcanic Rocks;1.0;;0.0;0.0
+3087;0.10132834;0.7441475;Basic Volcanic Rocks;0.8125;Mixed Sedimentary Rocks;0.1875;0.0
+3089;0.02525193;0.72583263;Acid Plutonic Rocks;1.0;;0.0;0.0
+3091;0.141620233;0.725299558;Mixed Sedimentary Rocks;0.5;Mixed Sedimentary Rocks;0.5;0.0
+3092;0.095210124;0.731400325;Unconsolidated Sediments;0.5;Unconsolidated Sediments;0.5;0.0
+3094;0.061209202;0.735838826;Basic Volcanic Rocks;0.5;Metamorphic Rocks;0.333333333;0.0
+3098;0.028623917;0.723693037;Metamorphic Rocks;1.0;;0.0;0.0
+3099;0.144496378;0.7366763;Siliciclastic Sedimentary Rocks;0.5;Siliciclastic Sedimentary Rocks;0.5;0.0
+3103;0.076008908;0.734882688;Basic Volcanic Rocks;0.444444444;Metamorphic Rocks;0.25;0.0
+3105;0.010783791;0.722838127;Metamorphic Rocks;1.0;;0.0;0.0
+3107;0.011112688;0.723140248;Acid Plutonic Rocks;0.5;Metamorphic Rocks;0.25;0.0
+3109;0.090000004;0.749894209;Basic Volcanic Rocks;1.0;;0.0;0.0
+3110;0.090000004;0.749894209;Basic Volcanic Rocks;1.0;;0.0;0.0
+4003;0.090000004;0.749894209;Basic Volcanic Rocks;1.0;;0.0;0.0
+4004;0.015892988;0.723402709;Metamorphic Rocks;0.857142857;Acid Plutonic Rocks;0.142857143;0.0
+4005;0.01;0.722769797;Metamorphic Rocks;1.0;;0.0;0.0
+4006;0.037283423;0.721752342;Metamorphic Rocks;1.0;;0.0;0.0
+4007;0.018372011;0.724665265;Metamorphic Rocks;0.75;Acid Plutonic Rocks;0.25;0.0
+4012;0.01;0.722769797;Metamorphic Rocks;1.0;;0.0;0.0
+4013;0.011096204;0.723058989;Metamorphic Rocks;1.0;;0.0;0.0
+4015;0.01;0.722769797;Metamorphic Rocks;1.0;;0.0;0.0
+4016;0.01;0.722769797;Metamorphic Rocks;1.0;;0.0;0.0
+4017;0.080187686;0.736283572;Basic Volcanic Rocks;0.578947368;Metamorphic Rocks;0.315789474;0.0
+4018;0.030587857;0.727237218;Acid Plutonic Rocks;1.0;;0.0;0.0
+4019;0.081517634;0.740329782;Basic Volcanic Rocks;0.688888889;Metamorphic Rocks;0.177777778;0.0
+4021;0.090000004;0.749894209;Basic Volcanic Rocks;1.0;;0.0;0.0
+4022;0.035199668;0.721112317;Metamorphic Rocks;0.75;Mixed Sedimentary Rocks;0.25;0.0
+4023;0.01;0.722769797;Metamorphic Rocks;1.0;;0.0;0.0
+4024;0.090000004;0.749894209;Basic Volcanic Rocks;1.0;;0.0;0.0
+4025;0.017100922;0.724597438;Metamorphic Rocks;1.0;;0.0;0.0
+4026;0.090000004;0.749894209;Basic Volcanic Rocks;1.0;;0.0;0.0
+4028;0.031295775;0.723365913;Metamorphic Rocks;1.0;;0.0;0.0
+4030;0.081458838;0.732848197;Basic Volcanic Rocks;0.333333333;Basic Volcanic Rocks;0.333333333;0.0
+4031;0.016092443;0.72342414;Metamorphic Rocks;0.9;Acid Plutonic Rocks;0.1;0.0
+4032;0.058165694;0.726980835;Metamorphic Rocks;1.0;;0.0;0.0
+4038;0.09023001;0.749878934;Basic Volcanic Rocks;1.0;;0.0;0.0
+4039;0.010213973;0.722841021;Metamorphic Rocks;1.0;;0.0;0.0
+4040;0.021580532;0.724021777;Metamorphic Rocks;1.0;;0.0;0.0
+4041;0.01;0.722769797;Metamorphic Rocks;1.0;;0.0;0.0
+4044;0.092396457;0.749735075;Basic Volcanic Rocks;1.0;;0.0;0.0
+4047;0.09348121;0.749894209;Basic Volcanic Rocks;1.0;;0.0;0.0
+4048;0.090000004;0.749894209;Basic Volcanic Rocks;1.0;;0.0;0.0
+4049;0.090000004;0.749894209;Basic Volcanic Rocks;1.0;;0.0;0.0
+4050;0.01;0.722769797;Metamorphic Rocks;1.0;;0.0;0.0
+4051;0.090000004;0.749894209;Basic Volcanic Rocks;1.0;;0.0;0.0
+4054;0.090153148;0.749884039;Basic Volcanic Rocks;1.0;;0.0;0.0
+4055;0.091772025;0.74767015;Basic Volcanic Rocks;1.0;;0.0;0.0
+4056;0.090000004;0.749894209;Basic Volcanic Rocks;1.0;;0.0;0.0
+4057;0.01053342;0.722816299;Metamorphic Rocks;0.857142857;Acid Plutonic Rocks;0.142857143;0.0
+4060;0.056025773;0.731305175;Metamorphic Rocks;0.465116279;Basic Volcanic Rocks;0.360465116;0.0
+4061;0.090000004;0.749894209;Basic Volcanic Rocks;1.0;;0.0;0.0
+4062;0.057596621;0.731970813;Metamorphic Rocks;0.4375;Basic Volcanic Rocks;0.3875;0.0
+4063;0.090000004;0.749894209;Basic Volcanic Rocks;1.0;;0.0;0.0
+4064;0.088357802;0.744940095;Basic Volcanic Rocks;0.869565217;Acid Plutonic Rocks;0.086956522;0.0
+5001;0.01;0.722769797;Metamorphic Rocks;0.5;Metamorphic Rocks;0.5;0.0
+5002;0.010550211;0.722817763;Metamorphic Rocks;0.692307692;Acid Plutonic Rocks;0.307692308;0.0
+5004;0.025981028;0.724164278;Metamorphic Rocks;1.0;;0.0;0.0
+5005;0.01;0.722769797;Metamorphic Rocks;0.5;Metamorphic Rocks;0.5;0.0
+5007;0.01;0.722769797;Metamorphic Rocks;1.0;;0.0;0.0
+5008;0.0111451;0.722869628;Metamorphic Rocks;0.647058824;Acid Plutonic Rocks;0.352941176;0.0
+5010;0.01;0.722769797;Acid Plutonic Rocks;1.0;;0.0;0.0
+5012;0.01328588;0.723056299;Metamorphic Rocks;0.652173913;Acid Plutonic Rocks;0.347826087;0.0
+5013;0.01;0.722769797;Metamorphic Rocks;0.5;Metamorphic Rocks;0.5;0.0
+5014;0.016056189;0.723297935;Metamorphic Rocks;1.0;;0.0;0.0
+5015;0.010070093;0.722775908;Metamorphic Rocks;1.0;;0.0;0.0
+5017;0.01;0.722769797;Metamorphic Rocks;0.666666667;Acid Plutonic Rocks;0.333333333;0.0
+5018;0.010018577;0.722771417;Metamorphic Rocks;1.0;;0.0;0.0
+5021;0.01;0.722769797;Metamorphic Rocks;0.5;Metamorphic Rocks;0.5;0.0
+5022;0.01;0.722769797;Metamorphic Rocks;1.0;;0.0;0.0
+5023;0.01;0.722769797;Acid Plutonic Rocks;0.666666667;Metamorphic Rocks;0.333333333;0.0
+5024;0.01;0.722769797;Acid Plutonic Rocks;1.0;;0.0;0.0
+5025;0.01;0.722769797;Acid Plutonic Rocks;1.0;;0.0;0.0
+5027;0.01;0.722769797;Metamorphic Rocks;1.0;;0.0;0.0
+5028;0.01;0.722769797;Metamorphic Rocks;1.0;;0.0;0.0
+5029;0.011225772;0.722876661;Metamorphic Rocks;0.6;Acid Plutonic Rocks;0.4;0.0
+6001;0.020189689;0.723495983;Acid Plutonic Rocks;0.666666667;Metamorphic Rocks;0.333333333;0.0
+6006;0.02056409;0.72462843;Metamorphic Rocks;0.666666667;Acid Plutonic Rocks;0.333333333;0.0
+6007;0.104590993;0.732633399;Unconsolidated Sediments;1.0;;0.0;0.0
+6008;0.020536175;0.724423429;Metamorphic Rocks;0.6;Acid Plutonic Rocks;0.4;0.0
+7001;0.099607161;0.729898421;Unconsolidated Sediments;0.75;Metamorphic Rocks;0.25;0.0
+7002;0.031342292;0.72724702;Basic Volcanic Rocks;0.333333333;Basic Volcanic Rocks;0.333333333;0.0
+7005;0.053229381;0.733160885;Basic Volcanic Rocks;1.0;;0.0;0.0
+7007;0.030070308;0.725009204;Metamorphic Rocks;0.75;Unconsolidated Sediments;0.125;0.0
+7008;0.041559135;0.726517803;Metamorphic Rocks;1.0;;0.0;0.0
+7009;0.056427093;0.725216176;Metamorphic Rocks;0.5;Unconsolidated Sediments;0.333333333;0.0
+7011;0.03690808;0.725964219;Metamorphic Rocks;1.0;;0.0;0.0
+7015;0.031077853;0.723558212;Unconsolidated Sediments;1.0;;0.0;0.0
+8001;0.124428762;0.715673509;Metamorphic Rocks;1.0;;0.0;0.0
+8003;0.150576064;0.712304429;Siliciclastic Sedimentary Rocks;0.75;Metamorphic Rocks;0.25;0.0
+8005;0.05087749;0.71862435;Acid Plutonic Rocks;1.0;;0.0;0.0
+8006;0.122850602;0.714319409;Mixed Sedimentary Rocks;0.454545455;Acid Plutonic Rocks;0.227272727;0.0
+8009;0.05230347;0.718749497;Mixed Sedimentary Rocks;1.0;;0.0;0.0
+8011;0.136232456;0.714283541;Mixed Sedimentary Rocks;0.727272727;Metamorphic Rocks;0.090909091;0.0
+8013;0.030924326;0.721988167;Metamorphic Rocks;0.5;Metamorphic Rocks;0.5;0.0
+8016;0.044440564;0.721331964;Metamorphic Rocks;0.5;Metamorphic Rocks;0.5;0.0
+8020;0.106374718;0.723123798;Mixed Sedimentary Rocks;0.5;Acid Plutonic Rocks;0.25;0.0
+8021;0.132451134;0.717513009;Siliciclastic Sedimentary Rocks;0.5;Siliciclastic Sedimentary Rocks;0.5;0.0
+8023;0.183023593;0.70617792;Siliciclastic Sedimentary Rocks;1.0;;0.0;0.0
+8028;0.18989128;0.704703853;Mixed Sedimentary Rocks;1.0;;0.0;0.0
+8029;0.065895213;0.718333875;Acid Plutonic Rocks;0.5;Mixed Sedimentary Rocks;0.25;0.0
+8030;0.039322033;0.719793789;Acid Plutonic Rocks;0.571428571;Mixed Sedimentary Rocks;0.285714286;0.0
+8031;0.047063355;0.719010139;Mixed Sedimentary Rocks;0.333333333;Mixed Sedimentary Rocks;0.333333333;0.0
+8034;0.115848194;0.714939392;Mixed Sedimentary Rocks;0.529411765;Acid Plutonic Rocks;0.294117647;0.0
+8035;0.143502062;0.715766349;Mixed Sedimentary Rocks;0.666666667;Acid Plutonic Rocks;0.166666667;0.0
+8036;0.032079858;0.721766989;Metamorphic Rocks;1.0;;0.0;0.0
+8038;0.086492949;0.717159969;Metamorphic Rocks;0.391304348;Mixed Sedimentary Rocks;0.260869565;0.0
+9001;0.179585453;0.70572638;Siliciclastic Sedimentary Rocks;0.5;Siliciclastic Sedimentary Rocks;0.5;0.0
+9002;0.072143647;0.716155998;Metamorphic Rocks;0.5;Mixed Sedimentary Rocks;0.25;0.0
+9005;0.044133846;0.721226379;Metamorphic Rocks;1.0;;0.0;0.0
+9008;0.033265306;0.720407504;Metamorphic Rocks;1.0;;0.0;0.0
+9009;0.060638336;0.717614111;Metamorphic Rocks;0.666666667;Mixed Sedimentary Rocks;0.166666667;0.0
+9011;0.011907197;0.722965149;Metamorphic Rocks;1.0;;0.0;0.0
+9012;0.020607852;0.722148556;Metamorphic Rocks;0.5;Metamorphic Rocks;0.5;0.0
+10004;0.053125088;0.736074667;Basic Volcanic Rocks;0.5;Basic Volcanic Rocks;0.5;0.0
+10005;0.063950472;0.72089865;Mixed Sedimentary Rocks;1.0;;0.0;0.0
+10008;0.051293076;0.736490007;Metamorphic Rocks;0.384615385;Basic Volcanic Rocks;0.230769231;0.230769231
+10010;0.090000004;0.749894209;Basic Volcanic Rocks;1.0;;0.0;0.0
+10011;0.054882014;0.739801346;Basic Volcanic Rocks;0.333333333;Basic Volcanic Rocks;0.333333333;0.333333333
+10013;0.183244535;0.738922759;Unconsolidated Sediments;1.0;;0.0;0.0
+10014;0.032802666;0.732341502;Mixed Sedimentary Rocks;0.333333333;Mixed Sedimentary Rocks;0.333333333;0.333333333
+11001;0.144768004;0.718415806;Mixed Sedimentary Rocks;0.666666667;Unconsolidated Sediments;0.333333333;0.0
+11005;0.10040605;0.713633428;Mixed Sedimentary Rocks;1.0;;0.0;0.0
+11006;0.119583453;0.71171027;Mixed Sedimentary Rocks;1.0;;0.0;0.0
+11007;0.071130391;0.730008989;Unconsolidated Sediments;1.0;;0.0;0.0
+11010;0.152108995;0.729273909;Unconsolidated Sediments;0.571428571;Mixed Sedimentary Rocks;0.285714286;0.0
+12001;0.019362279;0.724548159;Metamorphic Rocks;0.6;Mixed Sedimentary Rocks;0.2;0.0
+12004;0.099179806;0.73897043;Basic Volcanic Rocks;0.75;Unconsolidated Sediments;0.125;0.0
+12006;0.092479883;0.749200263;Basic Volcanic Rocks;1.0;;0.0;0.0
+12009;0.070162309;0.731440673;Unconsolidated Sediments;1.0;;0.0;0.0
+12012;0.106340047;0.736451847;Basic Volcanic Rocks;0.5;Unconsolidated Sediments;0.25;0.0
+12015;0.092012101;0.743690496;Basic Volcanic Rocks;1.0;;0.0;0.0
+12016;0.105589818;0.748568454;Basic Volcanic Rocks;1.0;;0.0;0.0
+12018;0.136562957;0.739591362;Basic Volcanic Rocks;0.5;Basic Volcanic Rocks;0.5;0.0
+12020;0.112492015;0.738243545;Basic Volcanic Rocks;0.666666667;Unconsolidated Sediments;0.133333333;0.0
+12025;0.123097092;0.735001817;Basic Volcanic Rocks;0.5625;Unconsolidated Sediments;0.1875;0.0
+12026;0.120273971;0.734544915;Basic Volcanic Rocks;0.533333333;Unconsolidated Sediments;0.2;0.0
+12029;0.090000004;0.749894209;Basic Volcanic Rocks;1.0;;0.0;0.0
+12035;0.117313508;0.736899882;Basic Volcanic Rocks;0.625;Unconsolidated Sediments;0.166666667;0.0
+12036;0.098118715;0.749218118;Basic Volcanic Rocks;1.0;;0.0;0.0
+12038;0.093011696;0.737955126;Basic Volcanic Rocks;0.5;Basic Volcanic Rocks;0.5;0.0
+12043;0.1484653;0.726381919;Unconsolidated Sediments;0.5;Unconsolidated Sediments;0.5;0.0
+12044;0.090019506;0.749892914;Basic Volcanic Rocks;1.0;;0.0;0.0
+12046;0.113246998;0.739174184;Basic Volcanic Rocks;0.7;Unconsolidated Sediments;0.1;0.0
+13004;0.090633567;0.747911595;Basic Volcanic Rocks;1.0;;0.0;0.0
+13006;0.090844484;0.747252737;Basic Volcanic Rocks;1.0;;0.0;0.0
+13007;0.117452139;0.747811737;Basic Volcanic Rocks;0.727272727;Unconsolidated Sediments;0.272727273;0.0
+13008;0.115195516;0.747904275;Basic Volcanic Rocks;0.764705882;Unconsolidated Sediments;0.235294118;0.0
+13010;0.1466046;0.746256811;Unconsolidated Sediments;0.666666667;Basic Volcanic Rocks;0.333333333;0.0
+13012;0.128042682;0.747575085;Unconsolidated Sediments;1.0;;0.0;0.0
+13013;0.090000004;0.749894209;Basic Volcanic Rocks;0.833333333;Unconsolidated Sediments;0.166666667;0.0
+13016;0.115534758;0.747901766;Basic Volcanic Rocks;0.736842105;Unconsolidated Sediments;0.263157895;0.0
+13017;0.115589234;0.747822964;Basic Volcanic Rocks;0.8;Unconsolidated Sediments;0.2;0.0
+13025;0.14206921;0.746501679;Unconsolidated Sediments;0.5;Unconsolidated Sediments;0.5;0.0
+14001;0.090301395;0.749874194;Basic Volcanic Rocks;1.0;;0.0;0.0
+14003;0.090000004;0.749894209;Basic Volcanic Rocks;1.0;;0.0;0.0
+14004;0.090447545;0.749864488;Basic Volcanic Rocks;1.0;;0.0;0.0
+14005;0.013150685;0.723819257;Basic Volcanic Rocks;0.5;Basic Volcanic Rocks;0.5;0.0
+14008;0.090000004;0.749894209;Basic Volcanic Rocks;0.75;Unconsolidated Sediments;0.25;0.0
+14009;0.090000004;0.749894209;Basic Volcanic Rocks;1.0;;0.0;0.0
+14011;0.090000004;0.749894209;Basic Volcanic Rocks;1.0;;0.0;0.0
+14012;0.090000004;0.749894209;Basic Volcanic Rocks;1.0;;0.0;0.0
+14014;0.090000004;0.749894209;Basic Volcanic Rocks;1.0;;0.0;0.0
+14015;0.090000004;0.749894209;Basic Volcanic Rocks;1.0;;0.0;0.0
+15001;0.013495145;0.723074549;Metamorphic Rocks;0.666666667;Unconsolidated Sediments;0.333333333;0.0
+15003;0.01;0.722769797;Metamorphic Rocks;1.0;;0.0;0.0
+15005;0.01;0.722769797;Metamorphic Rocks;1.0;;0.0;0.0
+15006;0.019767442;0.72362177;Metamorphic Rocks;0.75;Unconsolidated Sediments;0.25;0.0
+15007;0.01;0.722769797;Unconsolidated Sediments;0.5;Unconsolidated Sediments;0.5;0.0
+15008;0.01;0.722769797;Metamorphic Rocks;1.0;;0.0;0.0
+15009;0.01;0.722769797;Metamorphic Rocks;0.5;Metamorphic Rocks;0.5;0.0
+15010;0.01;0.722769797;Metamorphic Rocks;1.0;;0.0;0.0
+15011;0.01;0.722769797;Metamorphic Rocks;0.5;Metamorphic Rocks;0.5;0.0
+15012;0.01;0.722769797;Acid Plutonic Rocks;1.0;;0.0;0.0
+15013;0.01;0.722769797;Metamorphic Rocks;0.5;Metamorphic Rocks;0.5;0.0
+15014;0.01;0.722769797;Acid Plutonic Rocks;1.0;;0.0;0.0
+15016;0.010044763;0.722773699;Metamorphic Rocks;0.5;Metamorphic Rocks;0.5;0.0
+15017;0.01;0.722769797;Metamorphic Rocks;1.0;;0.0;0.0
+15018;0.01;0.722769797;Metamorphic Rocks;1.0;;0.0;0.0
+15019;0.01;0.722769797;Acid Plutonic Rocks;1.0;;0.0;0.0
+15020;0.010056124;0.72277469;Metamorphic Rocks;1.0;;0.0;0.0
+15021;0.012706088;0.723005737;Metamorphic Rocks;1.0;;0.0;0.0
+15022;0.01;0.722769797;Acid Plutonic Rocks;0.5;Unconsolidated Sediments;0.25;0.0
+15023;0.01;0.722769797;Acid Plutonic Rocks;1.0;;0.0;0.0
+15024;0.01;0.722769797;Metamorphic Rocks;0.75;Acid Plutonic Rocks;0.25;0.0
+15026;0.01;0.722769797;Metamorphic Rocks;0.666666667;Acid Plutonic Rocks;0.333333333;0.0
+15030;0.01;0.722769797;Acid Plutonic Rocks;1.0;;0.0;0.0
+15031;0.025746321;0.724143778;Acid Plutonic Rocks;1.0;;0.0;0.0
+15032;0.01;0.722769797;Unconsolidated Sediments;0.5;Unconsolidated Sediments;0.5;0.0
+16001;0.01;0.722769797;Metamorphic Rocks;1.0;;0.0;0.0
+16004;0.026997428;0.724253059;Metamorphic Rocks;0.666666667;Unconsolidated Sediments;0.333333333;0.0
+16007;0.028226861;0.724360462;Metamorphic Rocks;0.666666667;Unconsolidated Sediments;0.333333333;0.0
+16012;0.057962135;0.726962987;Unconsolidated Sediments;0.5;Unconsolidated Sediments;0.5;0.0
+16014;0.026546536;0.724213673;Metamorphic Rocks;1.0;;0.0;0.0
+17001;0.013260188;0.722438301;Acid Plutonic Rocks;1.0;;0.0;0.0
+17003;0.010261866;0.722792626;Acid Plutonic Rocks;1.0;;0.0;0.0
+17005;0.022532166;0.722866646;Acid Plutonic Rocks;0.5;Metamorphic Rocks;0.333333333;0.0
+17006;0.01218718;0.722960489;Metamorphic Rocks;1.0;;0.0;0.0
+17007;0.01005378;0.722774486;Metamorphic Rocks;1.0;;0.0;0.0
+17009;0.040503913;0.722225843;Metamorphic Rocks;0.5;Metamorphic Rocks;0.5;0.0
+17011;0.01195019;0.722939824;Metamorphic Rocks;1.0;;0.0;0.0
+17012;0.030106119;0.721049825;Metamorphic Rocks;1.0;;0.0;0.0
+17015;0.027523184;0.722964743;Acid Plutonic Rocks;1.0;;0.0;0.0
+17019;0.022208982;0.721529168;Acid Plutonic Rocks;1.0;;0.0;0.0
+17022;0.010964005;0.722853839;Metamorphic Rocks;0.75;Acid Plutonic Rocks;0.25;0.0
+17024;0.01290024;0.723022668;Metamorphic Rocks;0.75;Acid Plutonic Rocks;0.25;0.0

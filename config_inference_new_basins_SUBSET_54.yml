@@ -1,0 +1,189 @@
+# =============================================================================
+# dMILC Configuration File
+# Differentiable MILC hydrological model (dPL + MILC)
+# =============================================================================
+
+# --- Data ---
+data:
+  flow_path: "CAMELS_IND/CAMELS_IND_NEW_Catchments_Streamflow_No_Nan/catchment_mean_forcings"
+  train_cache: "training_file"         
+  root_db: "CAMELS_IND/CAMELS_IND_Catchments_Streamflow_No_Nan"                 
+  forcing_root: "CAMELS_IND/CAMELS_IND_Catchments_Streamflow_No_Nan/catchment_mean_forcings"
+  subset_file: "CAMELS_IND/Test.txt"
+  flow_path: "CAMELS_IND/CAMELS_IND_Catchments_Streamflow_No_Nan/streamflow_timeseries/final_filled.csv"
+  attr_path: "CAMELS_IND/CAMELS_IND_Catchments_Streamflow_No_Nan/attributes_txt/camels_ind_attributes.csv"
+  val_cache: null      
+  test_cache: "test_file"
+  val_period: null 
+  test_period: [19810101, 20201230]
+  test_cache: "test_file"
+  forcing_vars:
+  - prcp(mm/day)
+  - tmax(C)
+  - tmin(C)
+  - tavg(C)
+  - "srad_sw(W/m\xB2)"
+  - wind(m/s)
+  - rel_hum(%)
+  attr_vars:
+  - num_dams
+  - res_store_sum
+  - n_dams
+  - total_storage
+  - pop_density_2000
+  - pop_density_2005
+  - pop_density_2010
+  - pop_density_2015
+  - pop_density_2020
+  - urban_frac_1985
+  - urban_frac_1995
+  - urban_frac_2005
+  - crops_frac_1985
+  - crops_frac_1995
+  - crops_frac_2005
+  - p_mean
+  - p_max
+  - p_mean_anum
+  - p_monthly_variability
+  - p_annual_variability
+  - p_unif
+  - high_prec_freq
+  - high_prec_dur
+  - max_high_prec_dur
+  - low_prec_freq
+  - low_prec_dur
+  - max_low_prec_dur
+  - asynchronicity
+  - tmin_mean
+  - tmax_mean
+  - pet_mean
+  - pet_min
+  - pet_max
+  - pet_mean_anum
+  - pet_gleam_mean
+  - aet_gleam_mean
+  - evap_canopy_mean
+  - evap_canopy_min
+  - evap_canopy_max
+  - evap_canopy_anum
+  - evap_surface_mean
+  - evap_surface_min
+  - evap_surface_max
+  - evap_surface_anum
+  - aridity_p_pet
+  - aridity_pet_aet
+  - ai_mean
+  - rel_hum_mean
+  - srad_lw_mean
+  - srad_sw_mean
+  - wind_mean
+  - sm_lvl1_mean
+  - sm_lvl2_mean
+  - sm_lvl3_mean
+  - sm_lvl4_mean
+  - geol_porosity
+  - geol_permeability
+  - geol_class_1st_frac
+  - geol_class_2nd_frac
+  - carb_rocks_frac
+  - water_frac
+  - trees_frac
+  - flooded_veg_frac
+  - crops_frac
+  - built_area_frac
+  - bare_frac
+  - range_frac
+  - dom_land_cover_frac
+  - lai_mean
+  - lai_min
+  - lai_max
+  - lai_diff
+  - soil_depth
+  - soil_conductivity_top
+  - soil_conductivity_sub
+  - soil_awc_top
+  - soil_awc_sub
+  - soil_awsc_min
+  - soil_awsc_max
+  - soil_awsc_major
+  - sand_frac_top
+  - sand_frac_sub
+  - silt_frac_top
+  - silt_frac_sub
+  - clay_frac_top
+  - clay_frac_sub
+  - gravel_frac_top
+  - gravel_frac_sub
+  - bulkdens_top_major
+  - bulkdense_top_mean
+  - org_carb_top_major
+  - org_carb_top_mean
+  - org_carb_sub_major
+  - org_carb_sub_mean
+  - organic_frac_top
+  - organic_frac_sub
+  - wtd
+  - cwc_lat
+  - cwc_lon
+  - elev_mean
+  - elev_median
+  - elev_min
+  - elev_max
+  - slope_mean
+  - slope_median
+  - slope_min
+  - slope_max
+  - cwc_area
+  - gauge_elevation
+  - dpsbar
+  rebuild_cache: true                   # set true to force re-extract from raw CAMELS
+
+# --- Model ---
+model:
+  name: "δMILC-DP_1.0"                   
+  n_components: 16                      # Nmul — parallel HRU components
+  hidden_size: 256                      # LSTM hidden size
+  lstm_dropout: 0.2                     # input dropout on LSTM encoder
+  n_physics_params: 8                   # MILC has 8 physical parameters (gamma,m,ks,nu,alpha,w0,wmax,kc)
+  component_weights: false              # weighted avg of components (false = simple mean)
+  precip_correction: false              # learned precipitation correction
+  dynamic_params: true                  # time-varying physics params from per-timestep LSTM output
+  static_pm_params: true                # true = one rs/albedo/hc set repeated over time; false = per-timestep PM params
+
+# --- Training ---
+train:
+  epochs: 100
+  batch_size: 100                       # basins per mini-batch
+  seq_len: 365                          # RHO — LSTM sequence length (days)
+  warmup: 365                           # BUFFTIME — physics spin-up days
+  save_every: 10                        # save checkpoint every N epochs
+  optimizer: "adam"                     # "adam" or "adadelta"
+  lr: 5.0e-4
+  lr_scheduler: "cosine"                # "cosine" or "none"
+  lr_min: 1.0e-6
+  grad_clip: 1.0                        # gradient norm clipping (0 = disabled)
+  resume: false                         # auto-resume from latest checkpoint if found
+  gpu: 1
+  seed: 111111
+
+# --- Loss ---
+loss:
+  name: "nse_kge"                       # "nse_kge" | "kge_batch" | "nse_batch" | "rmse_comb"
+  eps: 0.1                              # epsilon for NSE/KGE denominators
+  nse_weight: 0.5                       # for nse_kge: 0=pure KGE, 1=pure NSE, 0.5=equal blend
+  rmse_alpha: 0.25                      # weight for log-sqrt RMSE (only for rmse_comb)
+
+# --- Output ---
+output:
+  root: "MILC-DP_1.0/experiments"       # relative to root_db
+  run_name: "DP_Inference"              # subfolder name; set to null for auto-name
+
+# --- Evaluation ---
+eval:
+  epoch: 1000                           # which checkpoint to load for testing
+  batch_size: 10000                     # basins per test batch
+  checkpoint: experiments/MILC-DP_1.0_India_Train/model_best.pt
+  warmup: 0                             # no additional warmup at test time (use val_period start)
+  skip_warmup_years: 3                  # skip first N years of val period as warmup
+
+

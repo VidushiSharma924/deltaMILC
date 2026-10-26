@@ -1,0 +1,83 @@
+nohup: ignoring input
+2026-10-03 22:34:44  INFO      dmilc.run  CUDA device 1: NVIDIA RTX A5000
+2026-10-03 22:34:44  INFO      dmilc.run  Output directory: /home/vidushi/my_data/Hybrid/US/dmilc_india_penmen_FINAL_CODE_no_comment/DP_Inference_new_basins_new_penman_28_9
+2026-10-03 22:34:44  INFO      dmilc.run  Loading / building data …
+2026-10-03 22:34:44  INFO      dmilc.run  Loading validation data …
+2026-10-03 22:34:44  INFO      data.dataset  Building cache → /home/vidushi/my_data/Hybrid/CAMELS_IND/CAMELS_IND_Catchments_Streamflow_No_Nan/test_file
+2026-10-03 22:35:15  INFO      data.dataset  Cache saved: /home/vidushi/my_data/Hybrid/CAMELS_IND/CAMELS_IND_Catchments_Streamflow_No_Nan/test_file
+2026-10-03 22:35:15  INFO      dmilc.run  Building area and month tensors …
+2026-10-03 22:35:16  INFO      dmilc.run  === EVALUATION ===
+2026-10-03 22:35:16  INFO      evaluate  Loaded checkpoint from /home/vidushi/my_data/Hybrid/US/dmilc_india_penmen_FINAL_CODE_no_comment/experiments/dMILC1.1p_dynamic_India/dMILC1.1p_dynamic_India_Penman_FINAL_CODE_DP_1_10_scale_dynamic_new_train_basins/model_best.pt
+2026-10-03 22:35:16  INFO      evaluate  Loaded checkpoint from /home/vidushi/my_data/Hybrid/US/dmilc_india_penmen_FINAL_CODE_no_comment/experiments/dMILC1.1p_dynamic_India/dMILC1.1p_dynamic_India_Penman_FINAL_CODE_DP_1_10_scale_dynamic_new_train_basins/model_best.pt
+/master_storage6/vidushi/Hybrid/US/dmilc_india_penmen_FINAL_CODE_no_comment/model/lstm.py:125: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at ../aten/src/ATen/native/cudnn/RNN.cpp:982.)
+  out, hy, cy, _, _ = torch._cudnn_rnn(
+2026-10-03 22:35:42  INFO      evaluate  Saved Qs → /home/vidushi/my_data/Hybrid/US/dmilc_india_penmen_FINAL_CODE_no_comment/DP_Inference_new_basins_new_penman_28_9/evaluation/Qs.csv
+2026-10-03 22:35:43  INFO      evaluate  Saved qd → /home/vidushi/my_data/Hybrid/US/dmilc_india_penmen_FINAL_CODE_no_comment/DP_Inference_new_basins_new_penman_28_9/evaluation/qd.csv
+2026-10-03 22:35:44  INFO      evaluate  Saved qb → /home/vidushi/my_data/Hybrid/US/dmilc_india_penmen_FINAL_CODE_no_comment/DP_Inference_new_basins_new_penman_28_9/evaluation/qb.csv
+2026-10-03 22:35:44  INFO      evaluate  Saved ET → /home/vidushi/my_data/Hybrid/US/dmilc_india_penmen_FINAL_CODE_no_comment/DP_Inference_new_basins_new_penman_28_9/evaluation/ET.csv
+2026-10-03 22:35:44  INFO      evaluate  Metrics saved → /home/vidushi/my_data/Hybrid/US/dmilc_india_penmen_FINAL_CODE_no_comment/DP_Inference_new_basins_new_penman_28_9/evaluation/metrics.csv
+2026-10-03 22:35:44  INFO      dmilc.run  Done.
+
+=== CACHE STATUS ===
+REBUILD CACHE: True
+CACHE PATH: /home/vidushi/my_data/Hybrid/CAMELS_IND/CAMELS_IND_Catchments_Streamflow_No_Nan/test_file
+
+=== MASK VALIDATION ===
+Valid fraction: 0.873483
+Per-basin valid fraction (min/mean/max): 0.621 / 0.873 / 0.955
+
+=== STREAMFLOW UNIT CHECK ===
+Raw mean m³/s (obs only): 175.456
+Conv mean mm/day (obs only): 1.562
+
+Runoff ratio (obs-only Q): 0.472
+
+=== FINAL SHAPES ===
+X: (50, 14608, 8) Y: (50, 14608, 1) C: (50, 110) Mask: (50, 14608, 1)
+new y_std shape: (50, 1, 1)
+valid_ids: 50
+y_std shape: (50, 1, 1)
+
+=== REFERENCE TIME AXIS ===
+Reference basin: 03028
+Start: 1980-01-01 00:00:00
+End: 2020-12-31 00:00:00
+
+=== AREA VALIDATION ===
+Min area : 731.0
+Max area : 305460.0
+Mean area: 24294.38
+
+Smallest 10 areas:
+[ 731.  750.  810.  940.  957. 1200. 1260. 1475. 1640. 1713.]
+
+Largest 10 areas:
+[ 30761.  32510.  37981.  44100.  44548.  55150.  57780.  66243. 251360.
+ 305460.]
+
+First 10 basin areas:
+[ 21429.   7380. 305460.   8070.   3545.   1800.  12691.  12660.   9373.
+  11501.]
+
+=== FINAL TENSOR SHAPES ===
+area_tensor : torch.Size([50, 1])
+month_tensor: torch.Size([50, 14976])
+doy_tensor  : torch.Size([50, 14976])
+CONFIG eval.batch_size: 1000
+PASSED batch_size: 1000
+LSTM input features: 118
+x: (50, 14608, 8)
+z: (50, 14608, 8)
+c: (50, 110)
+final z_full: torch.Size([14608, 50, 118])
+B = 50
+batch_size = 1000
+=== SCALE DIAGNOSTIC (physical units) ===
+pred[Qs] mean/std/max: 1.8181477 7.30911 396.99695
+y (target, physical) mean/std/max: 1.5620563 7.1727095 1694.3933
+Metric (median):         NSE         KGE         FLV         FHV     lowRMSE    highRMSE
+                       0.442       0.519      -7.488      -3.280       0.021       3.964
+Pred shape: (50, 14243, 4)
+Dates length: 14243
+First date: 1982-01-01
+Last date: 2020-12-29
